@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: train-schedule-service
   namespace: train
-  labels: train-schedule
 spec:
   type: NodePort
   selector:
